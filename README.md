@@ -1,2 +1,2 @@
-# Learning_Teraform_For_Abhishek
+# Learning_Terraform_For_Abhishek
 this is for the learning 
