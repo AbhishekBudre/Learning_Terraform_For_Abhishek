@@ -1,9 +1,10 @@
 resource "aws_instance" "example" {
-  ami           = "ami-01a00762f46d584a1"
-  instance_type = "t3.micro"
-  subnet_id = "subnet-0c720d9563977ae68"
+  ami           = var.instance_ami_id
+  instance_type = var.istance_type
+  subnet_id = var.subnet_id
 
   tags = {
-    Name = "tf_example-instance"
+    Name = "${"var.enviroment"}-web-server"
+    Enviroment = var.envirement
   }
 }
