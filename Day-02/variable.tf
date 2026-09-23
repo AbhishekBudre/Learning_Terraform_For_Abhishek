@@ -10,7 +10,7 @@ variable "subnet_id" {
   type = string
   default = "subnet-0c720d9563977ae68"
 }
-variable "enviroment" {
+variable "environment" {
   type = string
   default = "dev"
 }
