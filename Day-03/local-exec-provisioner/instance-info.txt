@@ -1,0 +1,1 @@
+Instance is Running and public Ip is 52.66.222.164 and private Ip is 172.31.22.24 
