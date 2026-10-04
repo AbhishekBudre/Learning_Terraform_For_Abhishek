@@ -1,0 +1,35 @@
+output "public_subnet_01_id" {
+  value = aws_subnet.public_subnet_01.id
+}
+output "vpc_id" {
+  value = aws_vpc.abhishek.id
+}
+output "private_subnet_01_id" {
+  value = aws_subnet.private_subnet_01.id
+}
+output "public_subnet_02_id" {
+  value = aws_subnet.public_subnet_02.id
+}
+output "public_subnet_03_id" {
+  value = aws_subnet.public_subnet_03.id
+}
+output "private_subnet_02_id" {
+  value = aws_subnet.private_subnet_02.id
+}
+output "private_subnet_03_id" {
+  value = aws_subnet.private_subnet_03.id
+}
+output "internet_gateway_id" {
+  value = aws_internet_gateway.abhi_igw.id
+}
+output "nat_gateway_01_id" {
+  value = aws_nat_gateway.private_nat_01.id
+}
+output "nat_gateway_02_id" {
+  value = aws_nat_gateway.private_nat_02.id
+}
+output "nat_gateway_03_id" {
+  value = aws_nat_gateway.private_nat_03.id
+}
+
+
