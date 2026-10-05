@@ -1,0 +1,5 @@
+ instance_ami_id = "ami-01a00762f46d584a1"
+  instance_type = "m7i-flex.large"
+ associate_public_ip_address = "true"
+  environment = "Dev"
+  aws_region = "ap-south-1"
